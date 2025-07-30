@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - ACoffee</title>
+  <link rel="icon" href="favicon_io/android-chrome-512x512.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="home.css" />
+</head>
+
+<body>
+  <nav class="loading">
+    <div id="name-coffee">ACoffee</div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="nav-links" id="navLinks">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#specials">Specials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contact Hero Section -->
+<section class="contact-hero">
+    <h1>Let's Connect</h1>
+    <p class="subtitle">We'd love to hear from you</p>
+</section>
+
+<!-- Contact Container Section -->
+<section class="contact-container">
+    <div class="contact-info">
+        <div class="info-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Pratapnagar Jaipur, Rajasthan</p>
+        </div>
+        <div class="info-box">
+            <i class="fas fa-phone"></i>
+            <p>+91 9863956838</p>
+        </div>
+        <div class="info-box">
+            <i class="fas fa-envelope"></i>
+            <p>aryanjjchympa@gmail.com</p>
+        </div>
+    </div>
+
+    <form class="contact-form">
+        <div class="form-header">
+            <i class="fas fa-paper-plane"></i>
+            <span>Send Us a Message</span>
+        </div>
+        <div class="input-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required />
+        </div>
+        <div class="input-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required />
+        </div>
+        <div class="input-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your coffee dreams..."></textarea>
+        </div>
+        <button type="submit" class="submit-btn">
+            <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+    </form>
+</section>
+
+
+</body>
+
+</html>
